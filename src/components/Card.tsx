@@ -8,6 +8,8 @@ interface CardProps {
   ele: Data;
 }
 
+
+
 const Card: React.FC<CardProps> = ({ ele, idx }) => {
   return (
     <div key={idx} className="bg-[#E0D9CF] p-5 rounded-md flex flex-col">
